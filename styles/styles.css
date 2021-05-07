@@ -1,0 +1,221 @@
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+ 
+.header{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-right: 150px;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 25px;
+    color: black;
+    align-items: center;
+    margin-left: 50px;
+
+    
+}
+
+#seccionDos{
+    
+   background-image: url("../photos/1.jpg");
+   background-position: center;
+    width: 2000px;
+    height: 600px;
+    display: flex;
+    align-items: baseline;
+    color: white;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 30px;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+#seccionDos div{
+    width: 700px;
+   margin-right: 100px;
+    margin-bottom: 200px;
+    
+    
+}
+
+#seccionTres{
+    background-image: url("../photos/2.jpg");
+    background-position: center;
+     width: 2000px;
+     height: 600px;
+     display: flex;
+     align-items: baseline;
+     color:black;
+     font-family: 'Bodoni Moda', serif;
+     font-size: 30px;
+     justify-content: flex-end;
+     flex-direction: column;
+     align-content: flex-start;
+     flex-wrap: wrap;
+     margin-bottom: 60px;
+
+}
+
+#seccionTres div{
+    width: 700px;
+    margin-left: 90px;
+    margin-bottom: 200px;
+
+
+}
+
+
+
+
+.intro{
+    background-color:white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+
+nav{
+    margin-left: 50px;
+}
+
+h1{
+    font-family: 'Bodoni Moda', serif;
+    font-size: 50px;
+    ;
+   margin-left: 400px;
+   margin-right: 400px;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+a{
+
+    margin-left: 40px;
+    
+}
+
+.boton{
+    
+    background-color: black;
+    font-size: 16px;
+    color: blanchedalmond;
+    font-family:'Bodoni Moda', serif ;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
+
+.boton:hover{
+    background-color: blanchedalmond;
+    color:black
+}
+
+h2{
+       
+        font-size: 40px;
+        text-align: center;
+        
+        padding-bottom: 50px;
+ }
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    font-family:'Bodoni Moda', serif;
+    font-size: 20px;
+    color: black;
+}
+
+#cuatro{
+    background-image: url("../photos/3.jpg");
+    background-position: center;
+     width: 2000px;
+     height: 600px;
+     display: flex;
+     align-items: baseline;
+     color:black;
+     font-family: 'Bodoni Moda', serif;
+     font-size: 30px;
+     justify-content: flex-end;
+     flex-direction: column;
+     align-content: flex-end;
+     flex-wrap: wrap;
+     margin-bottom: 60px;
+}
+
+#cuatro div{
+    width: 700px;
+    margin-left: 90px;
+    margin-bottom: 200px;
+    margin-right: 100px;
+    
+}
+
+#five{
+    background-image: url("../photos/4.jpg");
+    background-position: center;
+     width: 2000px;
+     height: 600px;
+     display: flex;
+     align-items: baseline;
+     color:black;
+     font-family: 'Bodoni Moda', serif;
+     font-size: 30px;
+     justify-content: flex-end;
+     flex-direction: column;
+     align-content: flex-start;
+     flex-wrap: wrap;
+     margin-bottom: 60px;
+}
+
+#five div{
+    width: 700px;
+    margin-left: 90px;
+    margin-bottom: 200px; 
+}
+
+
+footer{
+    background-color: black;
+}
+
+.fottse{
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    margin-top: 100px;
+
+
+}
+
+
+
+
+
+
+
